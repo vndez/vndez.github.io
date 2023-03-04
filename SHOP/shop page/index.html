@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>shop</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/destyle.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/pc2.css" rel="stylesheet" type="text/css">
+
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+<link rel="stylesheet" type="text/css" href="css/6-1-1.css">
+
+</head>
+
+<body>
+        
+<div class="bg-color">
+<img class="logo" src="img/logo gold.png" style="width:30%" alt="">
+    
+<!--menu bar--------------------------->  
+ <header class="global-header">
+    <div class="hamburger-menu" >
+    <input type="checkbox" id="menu-btn-check">
+    <label for="menu-btn-check" class="menu-btn"><span></span></label>
+        
+        <div class="menu-content">
+            <ul>
+                <li><a href="../../index.html">TOP</a>
+                </li>
+                <li><a href="index.html">SHOP</a>
+                </li>
+                <li><a href="../../GALLERY/index.html">GALLERY</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+</div>
+
+<!--slide show------------------------->
+    <ul class="slider">
+        <li> <img src="img/slide/Untitled-1.png" alt="">
+        </li>
+        <li><img src="img/slide/Untitled-2.png" alt=""></li>
+        <li> <img src="img/slide/Untitled-3.png" alt=""></li>
+        <li><img src="img/slide/Untitled-4.png" alt=""></li>
+        <li> <img src="img/slide/Untitled-5.png" alt=""></li>
+
+    </ul>
+     
+    
+
+<!--images--------------------------->
+<div class="images"> 
+  <div class="images-content">
+      
+    <div class="line1">
+      <div class="hover">
+  <a href="../ac_key_reo/index.html">      <img src="img/アクリルキーホルダーミニキャラシリーズ（7cm）/IMG_5522.PNG"  alt="">
+        <p>アクリルキーホルダー(ミニキャラ)</p> <p>600円（税込）</p></a>
+      </div>
+      <div class="hover">
+   <a href="../ac_suta_reo/index.html">     <img src="img/アクリルスタンド（高さ約11cm）/IMG_5477.PNG" alt="">
+        <p>アクリルスタンド</p>
+        <p>1000円（税込）</p></a>
+      </div>
+      <div class="hover">
+     <a href="../ac_suta_demigod/index.html">   <img src="img/アクリルスタンド（高さ約18cm）/IMG_5445.PNG" alt="">
+        <p>アクリルスタンド(デミ)</p> 
+        <p>1300円（税込）</p></a>
+      </div> 
+      <div class="hover">
+       <a href="../sute_reo/index.html"> <img src="img/ステッカー（約10cm）/IMG_5468.PNG" alt="">
+        <p>ステッカー</p> 
+        <p>100円（税込）</p></a>
+      </div>
+      <div class="hover">
+        <a href="../clearfile2/index.html"><img src="img/A4クリアファイル片面（裏表変わる可能性あり。）/IMG_5519.PNG" alt="">
+        <p>A4クリアファイル片面</p> 
+        <p>700円（税込）</p></a>
+       </div>
+       <div class="hover">
+        <a href="../kanbadge_reo/index.html"><img src="img/缶バッチ（44mm）/IMG_5441.PNG" alt="">
+        <p>缶バッチ</p> 
+        <p>300円（税込）</p></a>
+       </div>
+       <div class="hover">
+       <a href="../ac_key_mejedo_reo/index.html"> <img src="img/アクリルキーホルダーメジェドシリーズ（5cm）/IMG_5454.PNG" alt="">
+        <p>アクリルキーホルダー(メジェド)</p> 
+        <p>600円（税込）</p></a>
+       </div>
+       <div class="hover">
+       <a href="../ac_baltuti/index.html"> <img src="img/アクリルピンバッチ（7cm）/IMG_5455.PNG" alt="">
+        <p>アクリルバッチ</p> 
+        <p>550円（税込）</p></a>
+       </div>  
+    </div>
+    </div>
+    </div>
+    
+    <footer>
+        		
+	<img id="foteer" src="img/fotter.png" alt="">
+    </footer>
+    
+    
+    
+<!-- jcquery--------------------------> 
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<!--自作のJS-->
+<script src="js/6-1-1.js"></script>
+    
+</body>
+    
+<!--javascript------------------------>
+    
+   <script> $('.slider').slick({
+		autoplay: true,//自動的に動き出すか。初期値はfalse。
+		autoplaySpeed: 3000,//次のスライドに切り替わる待ち時間
+		speed:1000,//スライドの動きのスピード。初期値は300。
+		infinite: true,//スライドをループさせるかどうか。初期値はtrue。
+		slidesToShow: 1,//スライドを画面に3枚見せる
+		slidesToScroll: 1,//1回のスクロールで3枚の写真を移動して見せる
+		arrows: true,//左右の矢印あり
+		prevArrow: '<div class="slick-prev"></div>',//矢印部分PreviewのHTMLを変更
+		nextArrow: '<div class="slick-next"></div>',//矢印部分NextのHTMLを変更
+		dots: true,//下部ドットナビゲーションの表示
+        pauseOnFocus: false,//フォーカスで一時停止を無効
+        pauseOnHover: false,//マウスホバーで一時停止を無効
+        pauseOnDotsHover: false,//ドットナビゲーションをマウスホバーで一時停止を無効
+    });
+
+//スマホ用：スライダーをタッチしても止めずにスライドをさせたい場合
+$('.slider').on('touchmove', function(event, slick, currentSlide, nextSlide){
+    $('.slider').slick('slickPlay');
+});</script>
+</html>
