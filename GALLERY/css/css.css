@@ -80,13 +80,6 @@ body {
 	width: 30%;
 }
 
-.wrapper h1{
-    margin-top: -0.5vh;
-    margin-bottom: -1vh;
-}
-
-
-
 
 
 
@@ -213,6 +206,7 @@ body {
     background-color: rgba(0,0,0,0.50);
     transition: all 0.5s;/*アニメーション設定*/
 }
+   
 }
 #menu-btn-check:checked ~ .menu-content {
     left: 0;/*メニューを画面内へ*/
